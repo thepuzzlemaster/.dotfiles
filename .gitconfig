@@ -1,10 +1,8 @@
 [user]
-	name = Corey Frang
-	email = gnarf@gnarf.net
+	name = iLan Epstein
+	email = iLan@mentalfabrications.com
 
 [alias]
- pretty-diff = !node /Users/gnarf/node/pretty-diff/pretty-diff.js
- gist-diff = !node /Users/gnarf/node/pretty-diff/gist-diff.js
  feature = flow feature
  st = status -sb
  ci = commit
@@ -28,7 +26,7 @@
 
 [core]
 	autocrlf = input
-excludesfile = "/Users/gnarf/.gitexcludes"
+  excludesfile = /Users/ilan.epstein/.gitignore_global
 [credential]
 	helper = store
 [color]
