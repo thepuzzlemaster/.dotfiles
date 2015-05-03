@@ -1,0 +1,43 @@
+{
+	"auto_find_in_selection": false,
+	"bold_folder_labels": true,
+	"caret_style": "wide",
+	"color_scheme": "Packages/User/iLan_custom_bracket (SL).tmTheme",
+	"draw_minimap_border": false,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"find_selected_text": true,
+	"flatland_sidebar_tree_small": true,
+	"flatland_square_tabs": true,
+	"font_options":
+	[
+		"no_bold",
+		"no_round",
+		"subpixel_antialias"
+	],
+	"font_size": 11.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"match_selection": false,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_color_green": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_solid_current_tab": true,
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true
+}

@@ -1,0 +1,25 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Emmet",
+		"HTML Underscore Syntax",
+		"Inc-Dec-Value",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"LESS",
+		"Modific",
+		"Origami",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Tag",
+		"Theme - Phoenix",
+		"WordHighlight"
+	]
+}
