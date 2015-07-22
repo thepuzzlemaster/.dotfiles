@@ -1,0 +1,13 @@
+{
+
+  // You can use your commands instead of plain "git" or "svn"
+  // e.g. "/usr/bin/git" or "C:\bin\git.exe"
+	"vcs": [
+    ["git", "/usr/local/bin/git"],
+    ["svn", "svn"],
+    ["bzr", "bzr"],
+    ["hg" , "hg"]
+  ],
+	// set to false to disable automatic saving
+  "autosave": false
+}

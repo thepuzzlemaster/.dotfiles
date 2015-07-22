@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<h4>Dependencies</h4>
+<ol class="dependencies">
+  <li>$0</li>
+</ol>;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dep</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.JavaScript</scope> -->
+</snippet>

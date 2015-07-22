@@ -1,79 +1,70 @@
 {
-  // Character threshold to search
-  "search_threshold": 10000,
-  "bracket_styles": {
-    // "default" and "unmatched" styles are special
-    // styles. If they are not defined here,
-    // they will be generated internally with
-    // internal defaults.
+	// Define region highlight styles
+    "bracket_styles": {
+        // "default" and "unmatched" styles are special
+        // styles. If they are not defined here,
+        // they will be generated internally with
+        // internal defaults.
 
-    // "default" style defines attributes that
-    // will be used for any style that does not
-    // explicitly define that attribute.  So if
-    // a style does not define a color, it will
-    // use the color from the "default" style.
-    "default": {
-      // "icon": "dot",
-      // BH1's original default color for reference
-      // "color": "entity.name.class",
-      "color": "brackethighlighter.default",
-      "style": "underline"
-    },
+        // "default" style defines attributes that
+        // will be used for any style that does not
+        // explicitly define that attribute.  So if
+        // a style does not define a color, it will
+        // use the color from the "default" style.
+        "default": {
+            "icon": "dot",
+            "color": "brackethighlighter.green",
+            "style": "outline"
+        },
 
-    // This particular style is used to highlight
-    // unmatched bracekt pairs.  It is a special
-    // style.
-    "unmatched": {
-      "icon": "question",
-      // "color": "brackethighlighter.unmatched",
-      "style": "outline"
-    },
-    // User defined region styles
-    "curly": {
-      "icon": "curly_bracket"
-      // "color": "brackethighlighter.curly",
-      // "style": "underline"
-    },
-    "round": {
-      "icon": "round_bracket"
-      // "color": "brackethighlighter.round",
-      // "style": "underline"
-    },
-    "square": {
-      "icon": "square_bracket"
-      // "color": "brackethighlighter.square",
-      // "style": "underline"
-    },
-    "angle": {
-      "icon": "angle_bracket"
-      // "color": "brackethighlighter.angle",
-      // "style": "underline"
-    },
-    "tag": {
-      "icon": "tag",
-      // "endpoints": true,
-      // "color": "brackethighlighter.tag",
-      "style": "outline"
-    },
-    "c_define": {
-      "icon": "hash"
-      // "color": "brackethighlighter.c_define",
-      // "style": "underline"
-    },
-    "single_quote": {
-      "icon": "single_quote"
-      // "color": "brackethighlighter.quote",
-      // "style": "underline"
-    },
-    "double_quote": {
-      "icon": "double_quote"
-      // "color": "brackethighlighter.quote",
-      // "style": "underline"
-    },
-    "regex": {
-      "icon": "regex"
-      // "color": "brackethighlighter.quote",
-      // "style": "underline"
+        // This particular style is used to highlight
+        // unmatched bracekt pairs.  It is a special
+        // style.
+        "unmatched": {
+            "icon": "question"
+            // "color": "brackethighlighter.unmatched",
+            // "style": "outline"
+        },
+        // User defined region styles
+        "curly": {
+            "icon": "curly_bracket"
+            // "color": "brackethighlighter.curly",
+            // "style": "outline"
+        },
+        "round": {
+            "icon": "round_bracket"
+            // "color": "brackethighlighter.round",
+            // "style": "outline"
+        },
+        "square": {
+            "icon": "square_bracket"
+            // "color": "brackethighlighter.square",
+            // "style": "outline"
+        },
+        "angle": {
+            "icon": "angle_bracket"
+            // "color": "brackethighlighter.angle",
+            // "style": "outline"
+        },
+        "tag": {
+            "icon": "tag"
+            // "color": "brackethighlighter.tag",
+            // "style": "outline"
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            // "color": "brackethighlighter.quote",
+            "style": "underline"
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            // "color": "brackethighlighter.quote",
+            "style": "underline"
+        },
+        "regex": {
+            "icon": "regex"
+            // "color": "brackethighlighter.quote",
+            // "style": "underline"
+        }
     }
-  }
 }
