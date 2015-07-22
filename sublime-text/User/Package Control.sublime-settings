@@ -1,25 +1,45 @@
 {
+	"auto_upgrade_last_run": null,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"ActionScript 3",
 		"All Autocomplete",
+		"Alternative Autocompletion",
 		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
 		"Emmet",
+		"FileDiffs",
+		"HighlightWords",
 		"HTML Underscore Syntax",
+		"HTML5",
 		"Inc-Dec-Value",
+		"JavaScript Refactor",
 		"JavaScriptNext - ES6 Syntax",
 		"JsFormat",
 		"LESS",
+		"Markdown Preview",
+		"Material Theme",
 		"Modific",
 		"Origami",
 		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements",
-		"SublimeLinter",
+		"SublimeCodeIntel",
+		"sublimelint",
 		"Tag",
+		"Theme - Afterglow",
 		"Theme - Phoenix",
-		"WordHighlight"
+		"Theme - Soda",
+		"Themr",
+		"Web Inspector",
+		"WordHighlight",
+		"Zen Tabs"
 	]
 }

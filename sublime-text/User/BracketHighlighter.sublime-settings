@@ -1,0 +1,15 @@
+{
+//threshold distance to search
+	"search_threshold"     : 6000,
+	"tag_search_threshold" : 6000,
+	"use_search_threshold"     : true,
+	"tag_use_search_threshold" : true,
+
+// Outline? (solid|outline|underline|none)
+    "quote_style" : "outline",
+    "curly_style" : "outline",
+    "round_style" : "outline",
+    "square_style": "outline",
+    "angle_style" : "outline",
+    "tag_style"   : "outline"
+}
