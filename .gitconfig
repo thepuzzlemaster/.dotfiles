@@ -13,8 +13,11 @@
  lp = log -p
  fo = fetch origin
  rom = rebase origin/master
+ rod = rebase origin/develop
  who = shortlog -n -s --no-merges
+ temp = commit -am \"TEMP - to remove\"
  undo = reset --hard
+ rehead = "!f() { git reset HEAD~$1; }; f"
  lc = log ORIG_HEAD.. --stat --no-merges
  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
  lf = log --pretty=fuller
@@ -35,8 +38,8 @@
 [color]
   ui = auto
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
 [mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
