@@ -14,6 +14,7 @@
  fo = fetch origin
  rom = rebase origin/master
  rod = rebase origin/develop
+ recon = rebase --continue
  who = shortlog -n -s --no-merges
  temp = commit -am \"TEMP - to remove\"
  undo = reset --hard
