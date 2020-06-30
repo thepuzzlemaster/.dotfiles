@@ -1,6 +1,6 @@
 [user]
-  name = iLan Epstein
-  email = iLan@mentalfabrications.com
+	name = iLan Epstein
+	email = iepstein@tableau.com
 
 [alias]
  feature = flow feature
@@ -32,7 +32,7 @@
 
 [core]
   autocrlf = input
-  excludesfile = /Users/ilan.epstein/.gitignore_global
+	excludesfile = /Users/iepstein/.gitignore_global
   editor = subl -n -w
 [credential]
   helper = store
@@ -40,7 +40,7 @@
   ui = auto
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
