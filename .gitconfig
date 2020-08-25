@@ -33,7 +33,7 @@
 [core]
   autocrlf = input
 	excludesfile = /Users/iepstein/.gitignore_global
-  editor = subl -n -w
+  editor = code -n -w
 [credential]
   helper = store
 [color]
