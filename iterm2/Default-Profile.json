@@ -111,7 +111,7 @@
     "Blue Component" : 0.3333333432674408
   },
   "Use Italic Font" : true,
-  "Unlimited Scrollback" : false,
+  "Unlimited Scrollback" : true,
   "Keyboard Map" : {
     "0xf700-0x260000" : {
       "Text" : "[1;6A",
@@ -226,8 +226,8 @@
       "Action" : 11
     },
     "0xf703-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x43",
-      "Action" : 11
+      "Action" : 10,
+      "Text" : "f"
     },
     "0xf700-0x240000" : {
       "Text" : "[1;5A",
@@ -249,17 +249,13 @@
       "Text" : "[24;2~",
       "Action" : 10
     },
-    "0xf703-0x240000" : {
-      "Text" : "f",
-      "Action" : 10
-    },
     "0xf701-0x260000" : {
       "Text" : "[1;6B",
       "Action" : 10
     },
     "0xf702-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x44",
-      "Action" : 11
+      "Action" : 10,
+      "Text" : "b"
     },
     "0xf72b-0x20000" : {
       "Text" : "[1;2F",
@@ -279,10 +275,6 @@
     },
     "0xf70b-0x20000" : {
       "Text" : "[19;2~",
-      "Action" : 10
-    },
-    "0xf702-0x240000" : {
-      "Text" : "b",
       "Action" : 10
     },
     "0xf704-0x20000" : {
@@ -319,7 +311,7 @@
     "Red Component" : 0.73333334922790527,
     "Blue Component" : 0.73333334922790527
   },
-  "Transparency" : 0.069991275380710663,
+  "Transparency" : 0.069991275380710677,
   "Ansi 1 Color" : {
     "Green Component" : 0,
     "Red Component" : 0.73333334922790527,
@@ -349,6 +341,6 @@
   "Right Option Key Sends" : 0,
   "Normal Font" : "Monaco 12",
   "Custom Directory" : "Recycle",
-  "Guid" : "BACAD186-87D7-438D-BBEC-2AA4499449D6",
+  "Guid" : "C530BE57-08BB-46A0-86AE-65992447D5F0",
   "Horizontal Spacing" : 1
 }
