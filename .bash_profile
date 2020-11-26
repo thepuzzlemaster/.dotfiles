@@ -2,7 +2,7 @@
 export PATH="/usr/local/bin:/usr/bin:$PATH"
 
 # set sublime text as default editor
-export EDITOR="code -w"
+export EDITOR="scode -w"
 
 # set default ulimit
 ulimit -n 10000
@@ -17,6 +17,8 @@ export PS1='\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m
 # aliases
 # alias nw='nodewebkit'
 # alias gri='grunt release-internal'
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
