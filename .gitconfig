@@ -12,8 +12,9 @@
  df = diff
  lp = log -p
  fo = fetch origin
- rom = rebase origin/master
- rod = rebase origin/develop
+ rom = rebase origin/master --rebase-merges
+ rod = rebase origin/develop --rebase-merges
+ refix = "!f() { git rebase -i --autosquash $1^; }; f"
  recon = rebase --continue
  who = shortlog -n -s --no-merges
  temp = commit -am \"TEMP - to remove\"
@@ -32,7 +33,7 @@
 
 [core]
   autocrlf = input
-	excludesfile = /Users/iepstein/.gitignore_global
+	excludesfile = /Users/iLanLappy/.gitignore_global
   editor = code -n -w
 [credential]
   helper = store
@@ -40,7 +41,9 @@
   ui = auto
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/iLanLappy/.stCommitMsg
